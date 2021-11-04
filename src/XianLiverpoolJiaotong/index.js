@@ -1,7 +1,3 @@
-// Please don't sue me.
-// Jokes aside; this module can be used as a template to implement
-// fetching from another dictionnary source; for exemple Wiktionary.
-
 const axios = require('../axios');
 const parser = require('node-html-parser');
 const {NodeHtmlMarkdown} = require('node-html-markdown');
