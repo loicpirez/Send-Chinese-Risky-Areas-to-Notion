@@ -1,0 +1,26 @@
+{
+  "name": "send-chinese-risky-areas-to-notion",
+  "version": "1.0.0",
+  "description": "Fetch Chinese Medium/High risks areas and send them to Notion.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint './src/**/*.js' --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "@instantish/martian": "^1.0.3",
+    "@notionhq/client": "^0.4.5",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "node-html-markdown": "^1.1.3",
+    "node-html-parser": "^5.1.0",
+    "winston": "^3.3.3"
+  }
+}
